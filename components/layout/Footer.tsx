@@ -30,7 +30,7 @@ export default function Footer() {
               <li><a href="/about">about</a></li>
               <li><a href="/services">Services</a></li>
               <li><a href="/projects">Projects</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/contacts">Contact</a></li>
             </ul>
           </div>
 
@@ -38,9 +38,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-3 text-sm text-white/80">
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Testimonials</li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              {/* <li>Careers</li>
+              <li>Testimonials</li> */}
             </ul>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>📞 +088 (246) 642-27-10</li>
-              <li>✉️ info@brikly.com</li>
+              <li>✉️ info@vision.com</li>
               <li>📍 Chicago Heights, TX 60411</li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
         
         <div className="border-t border-white/20 mt-12 pt-6 text-center text-sm text-white/60">
-          © 2026 Brikly Construction. All rights reserved.
+          © 2026 Vision Construction. All rights reserved.
         </div>
       </div>
 

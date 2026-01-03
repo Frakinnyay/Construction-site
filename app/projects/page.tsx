@@ -1,4 +1,5 @@
 import PageHeader from "@/components/common/PageHeader";
+import ProjectsGrid from "@/components/projects/ProjectsGrid";
 export default function projects() {
   return (
     <div>
@@ -8,7 +9,7 @@ export default function projects() {
               subtitle="At Vision, we don’t just build spaces — we build lasting relationships.."
               backgroundImage="/Titanium.jpg"
             />
-      
+      <ProjectsGrid />
     </div>
   );
 }

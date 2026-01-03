@@ -25,13 +25,13 @@ export default function ServiceDetailCard({
 
       {/* Content */}
       <div className="p-10">
-        <h3 className="text-gray-500 text-3xl font-bold mb-4">{title}</h3>
+        <h3 className="text-gray-950 text-3xl font-bold mb-4">{title}</h3>
 
         <p className="text-gray-600 mb-6">
           {description}
         </p>
 
-        <h4 className="font-semibold mb-4">Key Benefits</h4>
+        <h4 className="text-gray-600 font-semibold mb-4">Key Benefits</h4>
 
         <ul className="space-y-3 mb-8">
           {benefits.map((item, index) => (

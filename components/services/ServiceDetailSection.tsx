@@ -13,6 +13,30 @@ const services = [
     ],
     image: "/serv1.png",
   },
+  {
+    title: "Commercial Buildings",
+    description:
+      "From retail stores to office buildings, we create efficient, functional, and durable spaces that help your business thrive.",
+    benefits: [
+      "Tailored floor plans and architecture",
+      "Energy-efficient systems and modern designs",
+      "Seamless permit handling and inspections",
+      "Built for local weather and codes",
+    ],
+    image: "/serv2.png",
+  },
+  {
+    title: "Renovation & Remodeling",
+    description:
+      "We breathe new life into outdated homes and commercial properties — making them more functional, stylish, and valuable.",
+    benefits: [
+      "Tailored floor plans and architecture",
+      "Energy-efficient systems and modern designs",
+      "Seamless permit handling and inspections",
+      "Built for local weather and codes",
+    ],
+    image: "/cons3.png",
+  },
   // Later: add Commercial, Renovation, etc.
 ];
 
